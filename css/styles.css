@@ -6,6 +6,9 @@ body {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
+	background-image: url(../img/cpf_market_background.jpg);
+	min-height:800px;
+	min-width:300px;
 }
 
 @fontface{ font-family: "century gothic";
@@ -14,18 +17,20 @@ font-style:normal;
 font-size:18px;
 font-weight:normal;}
 
-
+@fontface{ font-family: "century gothic";
+src:url(../fonts/century_gothic.eot);
+font-style: normal;
+font-size:18px;
+font-weight: bold;}
 
 /******************** BACKGROUND ********************/
 
 .img_background { 
 background-image:url(../img/cpf_market_background.jpg);
-height: 850px;
 width: 100%;
-position:fixed;
 background-size: 100%;
 padding-top:0px;
-background-repeat:no-repeat;
+background-repeat: no-repeat;
 }
 /******************** END BACKGROUND ********************/
 
@@ -79,18 +84,68 @@ header_links:active {
 
 /******************** DATA - BLUE BOX ********************/
 
-.all_divs{ padding-left:10%;
-padding-right:10%;}
 
 .blue_box{
 	background-color:#f2f5f8;
-	border-radius:10px; }
+	border-radius:10px;
+	padding: 20px 20px 40px 20px;
+}
 	
 .input_text{
 	background-color:#fff;
 	border-radius:5px;
 	width:220px;
-	height:50px;}
+	height:40px;
+	text-indent:10px;
+	font-family:"century gothic";
+	border-bottom-color:#dde1e6;
+	border-top-style: outset;
+	border-top-color:#dde1e6;
+	border-left-style:outset;
+	border-left-color:#dde1e6;
+	border-right-style: inset;
+	border-right-color: #dde1e6;}
+	
+.buttons{
+	background-color:#65abd0;
+	border-radius:5px;
+	font-family:"century gothic";
+	font-weight:bold;
+	color:#FFF;
+	border:none;
+	height:45px;
+	margin:0 0 15px 5px;
+}
+	
+	.blue_links{ font-family:"century gothic";
+	text-decoration: underline;
+	font-weight:bold;
+	font-size:12px;
+	color:#65abd0;}
+	
+	.blue_links:link{ font-family:"century gothic";
+	text-decoration: underline;
+	font-weight:bold;
+	font-size:12px;
+	color:#65abd0;}
+	
+	.blue_links:visited{ font-family:"century gothic";
+	text-decoration: underline;
+	font-weight:bold;
+	font-size:12px;
+	color:#65abd0;}
+	
+	.blue_links:hover{ font-family:"century gothic";
+	text-decoration: underline;
+	font-weight:bold;
+	font-size:12px;
+	color:#65abd0;}
+	
+	.blue_links:active{ font-family:"century gothic";
+	text-decoration: underline;
+	font-weight:bold;
+	font-size:12px;
+	color:#65abd0;}
 
 /******************** END DATA - BLUE BOX ********************/
 
