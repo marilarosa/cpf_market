@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+@fontface{ font-family: "century gothic";
+src:url(../fonts/century_gothic.eot);
+font-style:normal;
+font-size:18px;
+font-weight:normal;}
+
+
+
+/******************** BACKGROUND ********************/
+
+.img_background { 
+background-image:url(../img/cpf_market_background.jpg);
+height: 850px;
+width: 100%;
+position:fixed;
+background-size: 100%;
+padding-top:0px;
+background-repeat:no-repeat;
+}
+/******************** END BACKGROUND ********************/
+
+
+/******************** HEADER ********************/
+
+header{
+	padding: 60px 20px 180px 55px;
+	height:80px;
+	background-image:url(../img/logo_cpf.png);
+	background-repeat:no-repeat;
+	background-origin:content-box;
+	}
+	
+	header li {
+    display: inline;
+    float: right;
+	padding-right:20px;
+	padding-top:16px;}
+	
+.header_links { 
+	text-decoration:none;
+	font-family:"century gothic";
+	color:#383737;}
+
+header_links:link {
+	text-decoration: none;
+	font-family:"century gothic";
+	color:#383737;
+}
+
+header_links:visited {
+	text-decoration: none;
+	font-family:"century gothic";
+	color:#383737;
+}
+
+header_links:hover {
+	text-decoration: none;
+	font-family:"century gothic";
+	color:#383737;
+}
+
+header_links:active {
+	text-decoration: none;
+	font-family:"century gothic";
+	color:#383737;
+}	
+
+/******************** END HEADER ********************/
+
+/******************** DATA - BLUE BOX ********************/
+
+.all_divs{ padding-left:10%;
+padding-right:10%;}
+
+.blue_box{
+	background-color:#f2f5f8;
+	border-radius:10px; }
+	
+.input_text{
+	background-color:#fff;
+	border-radius:5px;
+	width:220px;
+	height:50px;}
+
+/******************** END DATA - BLUE BOX ********************/
+
+
+
+
+
+footer{
+	height:80px;
+	}
