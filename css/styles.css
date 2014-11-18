@@ -208,6 +208,14 @@ div.box {
 	text-align:left;
 }
 
+div.box2 {
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+	margin:5px 5px 5px 5px;
+	text-align:right;
+}
+
 .container {
     width: 900px;
 	padding-left:40px;
