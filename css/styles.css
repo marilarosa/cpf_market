@@ -194,7 +194,6 @@ text-align:right;}
 	font-family:"century gothic";
 	color:#b4bbc2;
 	font-weight:normal;
-	text-align:left;
 	font-size:12px;
 	}
 
@@ -206,10 +205,12 @@ div.box {
     width: 30%;
     float: left;
 	margin:5px 5px 5px 5px;
+	text-align:left;
 }
 
-div.container {
-    width: 800px;
+.container {
+    width: 900px;
+	padding-left:40px;
 }
 
 
