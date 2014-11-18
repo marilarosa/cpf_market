@@ -7,6 +7,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	background-image: url(../img/cpf_market_background.jpg);
+	background-repeat:no-repeat;
 	min-height:800px;
 	min-width:300px;
 }
@@ -45,12 +46,6 @@ header{
 	background-origin:content-box;
 	}
 	
-	header li {
-    display: inline;
-    float: right;
-	padding-right:20px;
-	padding-top:16px;}
-	
 .header_links { 
 	text-decoration:none;
 	font-family:"century gothic";
@@ -80,6 +75,27 @@ header_links:active {
 	color:#383737;
 }	
 
+.faq {
+	width:5em; float:right; 
+	text-align:right;}
+	
+.contact {
+width:7em; float:right; 
+text-align:right;}
+	
+.about_us {
+width:7em; float:right; 
+text-align:right;}
+
+.title{	text-decoration: none;
+	font-family:"century gothic";
+	color:#393635;
+	font-weight:bold;
+	text-align:left;
+	text-transform: uppercase;
+	}
+	
+
 /******************** END HEADER ********************/
 
 /******************** DATA - BLUE BOX ********************/
@@ -94,7 +110,34 @@ header_links:active {
 .input_text{
 	background-color:#fff;
 	border-radius:5px;
-	width:220px;
+	height:40px;
+	text-indent:10px;
+	font-family:"century gothic";
+	border-bottom-color:#dde1e6;
+	border-top-style: outset;
+	border-top-color:#dde1e6;
+	border-left-style:outset;
+	border-left-color:#dde1e6;
+	border-right-style: inset;
+	border-right-color: #dde1e6;}
+	
+	.list{
+	background-color:#fff;
+	border-radius:5px;
+	height:40px;
+	text-indent:10px;
+	font-family:"century gothic";
+	border-bottom-color:#dde1e6;
+	border-top-style: outset;
+	border-top-color:#dde1e6;
+	border-left-style:outset;
+	border-left-color:#dde1e6;
+	border-right-style: inset;
+	border-right-color: #dde1e6;}
+	
+		.list: hover{
+	background-color:#65abd0;
+	border-radius:5px;
 	height:40px;
 	text-indent:10px;
 	font-family:"century gothic";
@@ -146,6 +189,14 @@ header_links:active {
 	font-weight:bold;
 	font-size:12px;
 	color:#65abd0;}
+	
+	.forms_text{	text-decoration: none;
+	font-family:"century gothic";
+	color:#b4bbc2;
+	font-weight:normal;
+	text-align:left;
+	font-size:12px;
+	}
 
 /******************** END DATA - BLUE BOX ********************/
 
