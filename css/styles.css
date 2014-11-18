@@ -201,7 +201,16 @@ text-align:right;}
 /******************** END DATA - BLUE BOX ********************/
 
 
+div.box {
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+	margin:5px 5px 5px 5px;
+}
 
+div.container {
+    width: 800px;
+}
 
 
 footer{
