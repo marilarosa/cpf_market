@@ -10,6 +10,28 @@ body {
 	background-repeat:no-repeat;
 	min-height:800px;
 	min-width:300px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:"century gothic";
+	text-align: left;
+}
+
+h1 {
+	font-family:"century gothic";
+	font-size:17px;
+	text-align:left;
+}
+
+body,td,th {
+	font-family:"century gothic";
+	font-size:16px;
+	color:#5a5a5a;
+	text-align: left;
 }
 
 @fontface{ font-family: "century gothic";
@@ -73,19 +95,46 @@ header_links:active {
 	text-decoration: none;
 	font-family:"century gothic";
 	color:#383737;
-}	
+}
+
+
+	
 
 .faq {
 	width:5em; float:right; 
 	text-align:right;}
 	
+	.faq_on {
+	width:5em; float:right; 
+	text-align:right;
+	text-decoration:underline;
+	-moz-text-decoration-color: blue; /* Code for Firefox */
+	text-decoration-color: #F00;
+	}
+	
 .contact {
 width:7em; float:right; 
 text-align:right;}
+
+	.contact_on {
+	width:7em; float:right; 
+	text-align:right;;
+	text-decoration:underline;
+	-moz-text-decoration-color: blue; /* Code for Firefox */
+	text-decoration-color: #F00;
+	}
 	
 .about_us {
 width:7em; float:right; 
 text-align:right;}
+
+	.about_us_on {
+	width:7em; float:right; 
+	text-align:right;;
+	text-decoration:underline;
+	-moz-text-decoration-color: blue; /* Code for Firefox */
+	text-decoration-color: #F00;
+	}
 
 .title{	text-decoration: none;
 	font-family:"century gothic";
@@ -107,7 +156,7 @@ text-align:right;}
 	padding: 20px 20px 40px 20px;
 }
 	
-.input_text{
+input{
 	background-color:#fff;
 	border-radius:5px;
 	height:40px;
@@ -122,32 +171,16 @@ text-align:right;}
 	border-right-color: #dde1e6;}
 	
 	.list{
-	background-color:#fff;
+	background-color:#96cdea;
+	color: #fff;
 	border-radius:5px;
-	height:40px;
+	height:45px;
 	text-indent:10px;
 	font-family:"century gothic";
-	border-bottom-color:#dde1e6;
-	border-top-style: outset;
-	border-top-color:#dde1e6;
-	border-left-style:outset;
-	border-left-color:#dde1e6;
-	border-right-style: inset;
-	border-right-color: #dde1e6;}
+	border:none;
+	-webkit-appearance: none;
+}
 	
-		.list: hover{
-	background-color:#65abd0;
-	border-radius:5px;
-	height:40px;
-	text-indent:10px;
-	font-family:"century gothic";
-	border-bottom-color:#dde1e6;
-	border-top-style: outset;
-	border-top-color:#dde1e6;
-	border-left-style:outset;
-	border-left-color:#dde1e6;
-	border-right-style: inset;
-	border-right-color: #dde1e6;}
 	
 .buttons{
 	background-color:#65abd0;
@@ -225,3 +258,4 @@ div.box2 {
 footer{
 	height:80px;
 	}
+
