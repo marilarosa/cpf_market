@@ -45,5 +45,17 @@ text-align:right;}
 	-moz-text-decoration-color: blue; /* Code for Firefox */
 	text-decoration-color: #F00;
 	}
+	
+			.search {
+width:5em; float:right; 
+text-align:right;}
+
+	.search_on {
+	width:5em; float:right; 
+	text-align:right;;
+	text-decoration:underline;
+	-moz-text-decoration-color: blue; /* Code for Firefox */
+	text-decoration-color: #F00;
+	}
 
 
