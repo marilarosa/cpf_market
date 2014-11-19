@@ -1,19 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
+/******************** WITH NO BACKGROUND IMAGE ********************/
 body {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	background-image: url(../img/cpf_market_background.jpg);
-	background-repeat:no-repeat;
-	min-height:800px;
-	min-width:300px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -31,7 +24,7 @@ body,td,th {
 	font-family:"century gothic";
 	font-size:16px;
 	color:#5a5a5a;
-	text-align: left;
+	text-align: right;
 }
 
 @fontface{ font-family: "century gothic";
@@ -45,17 +38,6 @@ src:url(../fonts/century_gothic.eot);
 font-style: normal;
 font-size:18px;
 font-weight: bold;}
-
-/******************** BACKGROUND ********************/
-
-.img_background { 
-background-image:url(../img/cpf_market_background.jpg);
-width: 100%;
-background-size: 100%;
-padding-top:0px;
-background-repeat: no-repeat;
-}
-/******************** END BACKGROUND ********************/
 
 
 /******************** HEADER ********************/
@@ -96,9 +78,6 @@ header_links:active {
 	font-family:"century gothic";
 	color:#383737;
 }
-
-
-	
 
 .faq {
 	width:5em; float:right; 
@@ -189,8 +168,15 @@ input{
 	font-weight:bold;
 	color:#FFF;
 	border:none;
-	height:45px;
 	margin:0 0 15px 5px;
+}
+
+.buttons_text{
+	font-family:"century gothic";
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	padding:0 0 1555px 5px;
 }
 	
 	.blue_links{ font-family:"century gothic";

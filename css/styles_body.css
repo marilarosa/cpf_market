@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************** WITH BACKGROUND IMAGE ********************/
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../img/cpf_market_background.jpg);
+	background-repeat:no-repeat;
+	min-height:800px;
+	min-width:300px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:"century gothic";
+	text-align: left;
+}
+
+h1 {
+	font-family:"century gothic";
+	font-size:17px;
+	text-align:left;
+}
+
+body,td,th {
+	font-family:"century gothic";
+	font-size:16px;
+	color:#5a5a5a;
+	text-align: right;
+}
+
+@fontface{ font-family: "century gothic";
+src:url(../fonts/century_gothic.eot);
+font-style:normal;
+font-size:18px;
+font-weight:normal;}
+
+@fontface{ font-family: "century gothic";
+src:url(../fonts/century_gothic.eot);
+font-style: normal;
+font-size:18px;
+font-weight: bold;}
+

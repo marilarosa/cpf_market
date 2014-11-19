@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.header_small_image{
+	background-origin:content-box;
+	padding: 0 0 0 0;
+	height:257px;
+	width:100%;
+	background-image:url(../img/background_small.png);
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	
+	.logo{ background-image:url(../img/logo_cpf.png);
+	background-repeat:no-repeat;
+	width:111px;
+	height:80px;
+	float:left;
+	background-origin:content-box;}
+
+	.post_property {
+width:9em; float:right; 
+text-align:right;}
+
+	.post_property_on {
+	width:9em; float:right; 
+	text-align:right;;
+	text-decoration:underline;
+	-moz-text-decoration-color: blue; /* Code for Firefox */
+	text-decoration-color: #F00;
+	}
+	
+		.properties {
+width:7em; float:right; 
+text-align:right;}
+
+	.properties_on {
+	width:7em; float:right; 
+	text-align:right;;
+	text-decoration:underline;
+	-moz-text-decoration-color: blue; /* Code for Firefox */
+	text-decoration-color: #F00;
+	}
+
+
