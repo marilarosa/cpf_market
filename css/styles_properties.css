@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.blue_box2{
+	background-color:#f2f5f8;
+	border-radius:10px;
+	padding: 20px 20px 20px 0;
+}
+
+.properties_names_content {
+	width:30%;
+	display:inline-block;
+	text-align:left;
+	text-decoration:none;
+	font-family:"century gothic";
+	color:#383737;
+	font-size:15px;}
+	
+	.properties_names_description {
+	width:30%;
+	display:inline-block;
+	text-align:left;
+	text-decoration:none;
+	font-family:"century gothic";
+	color:#383737;
+	font-size:15px;
+	padding-top:20px;}
+	
+		.properties_names_title {
+	display:inline-block;
+	text-align:left;
+	text-decoration:none;
+	font-family:"century gothic";
+	color:#383737;
+	font-size:25px;
+	padding-bottom:20px;}
