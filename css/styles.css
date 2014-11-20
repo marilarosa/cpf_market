@@ -130,7 +130,7 @@ text-align:right;}
 
 
 .blue_box{
-	background-color:#f2f5f8;
+	background-color:#e3ecf6;
 	border-radius:10px;
 	padding: 20px 20px 40px 20px;
 }
@@ -141,6 +141,7 @@ input{
 	height:40px;
 	text-indent:10px;
 	font-family:"century gothic";
+	font-size:16px;
 	border-bottom-color:#dde1e6;
 	border-top-style: outset;
 	border-top-color:#dde1e6;
@@ -211,8 +212,8 @@ input{
 	
 	.forms_text{	text-decoration: none;
 	font-family:"century gothic";
-	color:#b4bbc2;
-	font-weight:normal;
+	color:#8a9097;
+	font-weight:bold;
 	font-size:12px;
 	}
 

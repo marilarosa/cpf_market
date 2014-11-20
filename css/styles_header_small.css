@@ -15,6 +15,19 @@
 	background-size: cover;
 	}
 	
+	.header_small_image2{
+	background-origin:content-box;
+	padding: 0 0 0 0;
+	height:381px;
+	width:100%;
+	background-image:url(../img/background_medium.png);
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	
 	.logo{ background-image:url(../img/logo_cpf.png);
 	background-repeat:no-repeat;
 	width:111px;
@@ -58,4 +71,7 @@ text-align:right;}
 	text-decoration-color: #F00;
 	}
 
-
+figure{max-width: 100%;
+    height: auto;
+	}
+	
