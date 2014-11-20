@@ -43,3 +43,11 @@
 	color:#383737;
 	font-size:25px;
 	padding-bottom:20px;}
+	
+		.box_post_property {box-sizing: content-box; width: 25%; float: left; display: inline-block;}
+		
+		.box_input{
+	background-color: #fff;
+	border-radius:5px;
+	border:#000;}
+	

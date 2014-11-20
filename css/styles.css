@@ -153,12 +153,12 @@ input{
 	.list{
 	background-color:#96cdea;
 	color: #fff;
+	-webkit-color: #fff;
 	border-radius:5px;
 	height:45px;
 	text-indent:10px;
 	font-family:"century gothic";
 	border:none;
-	-webkit-appearance: none;
 }
 	
 	
@@ -178,6 +178,7 @@ input{
 	color:#FFF;
 	text-decoration:none;
 	padding:0 0 0 5px;
+	margin:200px 0 0 0;
 }
 	
 	.blue_links{ font-family:"century gothic";
