@@ -282,3 +282,19 @@ footer{
 	text-transform:uppercase;
 	font-size:14px;
 	}
+	
+	textarea {
+  outline: none;
+  background-color:#fff;
+  border-radius:5px;
+  font-family:"century gothic";
+	font-size:16px;
+	border-bottom-color:#dde1e6;
+	border-top-style: outset;
+	border-top-color:#dde1e6;
+	border-left-style:outset;
+	border-left-color:#dde1e6;
+	border-right-style: inset;
+	border-right-color: #dde1e6;
+}
+

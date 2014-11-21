@@ -45,7 +45,7 @@
 	padding-bottom:20px;}
 	
 		.box_post_property {box-sizing: content-box; width: 25%; float: left; display: inline-block;}
-		.box_post_property2 {box-sizing: content-box; width: 70%; float: left; display: inline-block;}
+		.box_post_property2 {box-sizing: content-box; width:50%; float: left; display: inline;}
 		
 		.box_input{
 	background-color: #fff;
