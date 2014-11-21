@@ -244,6 +244,41 @@ div.box2 {
 
 
 footer{
+	
 	height:80px;
+	margin-top:70px;
+	margin-bottom:0px;
+	text-align:center;
+	}
+	
+	.footer_text1{
+		text-decoration:none;
+	font-family:"century gothic";
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
 	}
 
+	.footer_text1_on{
+		text-decoration: underline;
+	font-family:"century gothic";
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+	}
+	
+	.footer_text2{
+		text-decoration:none;
+	font-family:"century gothic";
+	color:#65abd0;
+	text-transform:uppercase;
+	font-size:14px;
+	}
+	
+		.footer_text2_on{
+		text-decoration: underline;
+	font-family:"century gothic";
+	color:#65abd0;
+	text-transform:uppercase;
+	font-size:14px;
+	}

@@ -45,9 +45,19 @@
 	padding-bottom:20px;}
 	
 		.box_post_property {box-sizing: content-box; width: 25%; float: left; display: inline-block;}
+		.box_post_property2 {box-sizing: content-box; width: 70%; float: left; display: inline-block;}
 		
 		.box_input{
 	background-color: #fff;
 	border-radius:5px;
 	border:#000;}
 	
+.forms_text2{	text-decoration: none;
+	font-family:"century gothic";
+	color:#8a9097;
+	font-weight:bold;
+	font-size:12px;
+	text-align:left;
+	width:250px;
+	padding-bottom:10px;
+	}
